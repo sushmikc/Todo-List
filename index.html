@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <!--div for title-->
+        <div class="topic">
+            <h2>Todo List</h2>
+        </div>
+        <!--div for search-box-->
+        <div class="search-box">
+            <form class="md-form search-form mb-3 mt-0 d-flex justify-content-center">
+                <input class="form-control form-control-sm w-25" type="text" placeholder="Search todos" aria-label="Search">
+            </form>
+        </div>
+        <!--div for list of to-dos-->
+        <ul class="list-group mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                    <span>play mario cart</span>   
+                    <i class="fa fa-trash delete"></i>
+            </li>  
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>defeat genon in zelda</span>   
+                <i class="fa fa-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>make a veggie pie</span>   
+                <i class="fa fa-trash delete"></i>
+            </li>
+        </ul>
+        <!--div for adding new todos-->
+        <div class="add-title">
+            <h3>Add a new Todo...</h3>
+        </div>
+        <!--div for form to add todos-->
+        <div class="add-todo">
+            <form class="md-form add-form mb-3 mt-0 d-flex justify-content-center">
+                <input class="form-control form-control-sm w-25" type="text" name="add">
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
